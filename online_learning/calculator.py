@@ -1,12 +1,9 @@
 def give_sum(a, b):
     print("Результат:", a + b)
-
 def give_difference(a, b):
     print("Результат:", a - b)
-
 def give_product(a, b):
     print("Результат:", a * b)
-
 def give_quotient(a, b):
     print("Результат:", a / b)
 try:
