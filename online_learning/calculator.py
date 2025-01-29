@@ -35,3 +35,5 @@ except ZeroDivisionError:
     print("Ділення на нуль неможливе")
 except ValueError:
     print("Введіть коректні числа")
+except OverflowError:
+    print("Число занадто велике для обчислення")
