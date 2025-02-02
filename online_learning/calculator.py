@@ -1,15 +1,15 @@
 def give_sum(a, b):
-    print("Результат:", a + b)
+    print("Сума:", a + b)
 def give_difference(a, b):
-    print("Результат:", a - b)
+    print("Різниця:", a - b)
 def give_product(a, b):
-    print("Результат:", a * b)
+    print("Добуток:", a * b)
 def give_quotient(a, b):
-    print("Результат:", a / b)
+    print("Частка:", a / b)
 def give_remainder(a, b):
-    print("Результат:", a % b)
+    print("Залишок від ділення:", a % b)
 def exponentiate(a, c):
-    print("Результат:", a ** c)
+    print(f"Піднесення до {int(c)} степення: ", a ** c)
 try:
     action = input("Виберіть дію (+, -, *, /, % або **): ")
     if action in ('+', '-', '*', '/', '%'):
